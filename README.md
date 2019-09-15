@@ -1,4 +1,4 @@
-## We have back-end under `api`
+## We have back-end `APIs` & Front-end `UI` under the same repository with different directory as below
 
 Open 2 terminal, one for front end (ReactJS) and other is for Back-end (NodeJS)
 > Front-End [http://localhost:3000](http://localhost:3000) with root directory:
@@ -11,7 +11,7 @@ $ npm start
 $ npm install
 $ npm start
 ```  
-
+-------------------------------------------------------------------------------
 ## Sending Feedback
 
 We are always open to [your feedback](https://github.com/udkumar/reactjs_crud_example/issues).
