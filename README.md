@@ -1,12 +1,12 @@
 ## We have back-end under `api`
 
 Open 2 terminal, one for front end (ReactJS) and other is for Back-end (NodeJS)
-[Front-End](http://localhost:3000) with root directory:
+> Front-End [http://localhost:3000](http://localhost:3000) with root directory:
 ```
 $ npm install
 $ npm start
 ```  
-[Back-End](http://localhost:4000) under api directory:
+> Back-End [http://localhost:4000](http://localhost:4000) under api directory:
 ```
 $ npm install
 $ npm start
