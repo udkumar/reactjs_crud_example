@@ -12,10 +12,16 @@ class App extends Component {
       <Router>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link to={'/'} className="navbar-brand">React CRUD Example</Link>
+            <Link to={'/'} className="navbar-brand">UMITOIT</Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
+                <li className="custom-style">
+                  <a href={'https://umitoit.blogspot.com/'} target='_blank' className="nav-link">Random Blog (umitoit)</a>
+                </li>
+                <li className="custom-style">
+                  <a href={'https://github.com/udkumar/reactjs_crud_example/'} target='_blank' className="nav-link">GITHUB</a>
+                </li>
+                <li className="nav-item">
                   <Link to={'/'} className="nav-link">Home</Link>
                 </li>
                 <li className="nav-item">
@@ -27,7 +33,7 @@ class App extends Component {
               </ul>
             </div>
           </nav> <br/>
-          <h2>Welcome to React CRUD Tutorial</h2> <br/>
+          <h2>ReactJS CRUD with NodeJS</h2> <br/>
           <Switch>
               <Route exact path='/create' component={ Create } />
               <Route path='/edit/:id' component={ Edit } />
